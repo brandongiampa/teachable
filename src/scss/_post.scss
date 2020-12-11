@@ -1,0 +1,47 @@
+header.post-header, header.page-header {
+    border-color: $gray-800;
+    border-width: 1px 0;
+    border-style: solid;
+    h1 {
+        position: relative;
+        font-size: 3.2rem;
+        margin-top: 12px;
+        font-weight: 700;
+        &::after {
+            position: absolute;
+            content: "";
+            background-color: $primary;
+            height: 1px;
+            width: 22px;
+            left: 0;
+            bottom: -22px;
+        }
+    }
+    .meta a {
+        color: $primary;
+    }
+}
+.tags {
+    font-style: italic;
+    font-size: 1rem;
+}
+.meta, .share {
+    font-size: 1rem;
+    font-style: italic;
+}
+.post-footer {
+    font-size: .9rem;
+    .previous-next-post {
+        font-style: italic;
+    }
+    a {
+        font-size: 1rem;
+        font-style: normal;
+    }
+    .col-6 a {
+        font-size: 1.1rem;
+    }
+}
+hr.page-header-bottom {
+    background-color: $primary-opaque;
+}

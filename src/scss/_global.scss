@@ -1,0 +1,67 @@
+body {
+    font-family: $font-family-sans-serif;
+}
+img {
+    max-height: 100%;
+    height: auto;
+    max-width: 100%;
+}
+h1, h2 {
+    font-family: $font-family-serif;
+    &.display-3 {
+        font-weight: 700;
+    }
+}
+h1 {
+    margin-top: .6rem;
+    font-weight: 700;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+h6 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: .8rem;
+    display: inline;
+    background-color: $gray-200;
+    padding: 0 5px;
+    border: 1px $primary ridge;
+    border-radius: 4px;
+}
+.badge {
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 13px !important;
+    text-shadow: -1px -1px $dark;
+}
+.post, .page {
+    font-size: 1.2rem;
+}
+a .card {
+    color: $dark !important;
+}
+.home-content h1 {
+    @media only screen and (max-width: 991px) {
+        margin-bottom: 24px;
+    }
+}
+.card {
+    &:first-child {
+        @media only screen and (max-width:991px) {
+            margin-top: 22px;
+        }
+    }
+    @media only screen and (max-width:991px) {
+        margin-bottom: 50px;
+    }
+}
+hr.page-header-top {
+    background-color: $dark;
+    height: 1px;
+    // width: 88px;
+    // position: relative;
+    // left: calc( -50% + 44px );
+    margin-bottom: 14px;
+}

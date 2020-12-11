@@ -1,0 +1,12 @@
+.wp-block-jetpack-slideshow {
+    a.wp-block-jetpack-slideshow_button-prev.swiper-button-prev.swiper-button-white,
+    a.wp-block-jetpack-slideshow_button-next.swiper-button-next.swiper-button-white, 
+    button.swiper-pagination-bullet.swiper-pagination-bullet-active,
+    .swiper-pagination-bullet:hover   {
+        background-color: $primary-opaque !important;
+    }
+    figcaption.wp-block-jetpack-slideshow_caption.gallery-caption {
+        background-color: $primary-opaque !important;
+        text-align: center !important;
+    }
+}

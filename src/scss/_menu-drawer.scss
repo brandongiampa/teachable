@@ -1,0 +1,88 @@
+.blackout-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background-color: $gray-900;
+    opacity: 0;
+    z-index: 1000;
+    transition: .4s opacity ease-in-out;
+}
+.menu-drawer {
+    opacity: 0;
+    transition: .4s all ease-in-out;
+    transform: translateX( -100% );
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: $gray-900;
+    height: 100%;
+    z-index: 1000;
+    .close {
+        padding: 12px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        a#close-menu {
+            transition: .05s opacity linear;
+            &.dashicons {
+                transition: .2s all linear;
+            }
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    a {
+        color: $gray-100;
+        // text-decoration: underline;
+    }
+    h3, p {
+        color: $gray-100;
+        font-family: $font-family-monospace;
+    }
+    p {
+        color: $gray-400;
+    }
+    hr {
+        background-color: $gray-700;
+    }
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    ul#menu-left {
+        padding-left: 0;
+        a {
+            margin-left: 6px;
+        }
+        ul a {
+            margin-left: 25px;
+        }
+        ul ul a {
+            margin-left: 56px;
+        }
+        li {
+            padding: 2px 0;
+            background-color: $primary;
+            border-bottom: 1px $white solid;
+            &:last-child {
+                border-bottom: none;
+            }
+            > ul {
+                border-top: 1px $white solid;
+            }
+        }
+        li:nth-child( odd ) {
+            background-color: $primary-opaque;
+        }
+        li:nth-child( even ) {
+            background-color: $gray-700;
+        }
+        .current-menu-item a {
+            color: $gray-500;
+        }
+    }
+    
+}
