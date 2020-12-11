@@ -224,7 +224,8 @@ add_action( 'widgets_init', 'teachable_widgets_init' );
  * Enqueue scripts and styles.
  */
 function teachable_scripts() {
-	wp_enqueue_style( 'teachable-style', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime( get_template_directory() . '/assets/css/style.css' ), 'all' );
+	// wp_enqueue_style( 'teachable-style', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime( get_template_directory() . '/assets/css/style.css' ), 'all' );
+	wp_enqueue_style( 'teachable-style', get_template_directory_uri() . '/assets/css/style.css', array(), "1.0.0", 'all' );
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@300;400;500;600;700&display=swap', array(), '1.0.0' );
 	// wp_style_add_data( 'teachable-style', 'rtl', 'replace' );
 
@@ -247,7 +248,8 @@ add_action( 'wp_enqueue_scripts', 'teachable_scripts', 100 );
 
 //enqueue block assets
 function teachable_enqueue_block_editor_assets() {
-    wp_enqueue_style( 'gutenberg-style', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime( get_template_directory() . '/assets/css/style.css' ), 'all' );
+	// wp_enqueue_style( 'gutenberg-style', get_template_directory_uri() . '/assets/css/style.css', array(), filemtime( get_template_directory() . '/assets/css/style.css' ), 'all' );
+	wp_enqueue_style( 'gutenberg-style', get_template_directory_uri() . '/assets/css/style.css', array(), '1.0.0', 'all' );
 }
 add_action( 'enqueue_block_editor_assets', 'teachable_enqueue_block_editor_assets', 100 );
 
