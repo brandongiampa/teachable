@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the template for social media 'share' links that appear beneath the header of each blog.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <?php 
 $show_facebook_share = get_theme_mod( 'show_facebook_share', true );
 $show_twitter_share = get_theme_mod( 'show_twitter_share', true );

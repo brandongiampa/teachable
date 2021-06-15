@@ -1,3 +1,15 @@
+<?php
+/**
+ * Footer file for the Teachable WordPress default theme.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <footer id="footer-main" class="footer-main">
     <section class="text-light p-4 footer-top">
         <div class="container">

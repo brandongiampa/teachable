@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the generic template for the content area, a.k.a. the "meat" of each page. It automatically links posts related to whatever blog is on the page, or to latest posts if it is another kind of content.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <div class="row mb-5">
     <div class="col-12<?php if ( is_active_sidebar( 'sidebar-right' ) ) { echo " col-lg-9"; } ?>">
         <div class="pr-lg-5">

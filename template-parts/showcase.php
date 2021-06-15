@@ -1,4 +1,14 @@
 <?php
+/**
+ * This is the template for the dynamic 'hero image' on the front page, which defaults to the most recent blog.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
+<?php
 $args = array(
     'post_type' => 'post',
     'tax_query' => array(

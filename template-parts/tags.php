@@ -1,3 +1,15 @@
+<?php
+/**
+ * This is the template for how hashtags appear above the title of a blog page. 
+ * There are defaults to keep the blog pages stylistically consistent in null cases.
+ * The user can choose these defaults in the customizer.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <span class="tags" id="post-tags">     
     <?php 
     $tags = get_the_tags( get_the_id() ); 

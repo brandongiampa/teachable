@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the template for content and what links beneath it (comments, pagination, etc.).
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <div class="post-body">
     <?php the_content();?>
 </div>

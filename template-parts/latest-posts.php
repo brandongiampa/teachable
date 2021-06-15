@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the template for the latest posts footers attached to pages without blog content.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <?php 
 
 $lp_query = new WP_Query( array(

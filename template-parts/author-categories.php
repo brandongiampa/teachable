@@ -1,3 +1,15 @@
+<?php
+/**
+ * This is a file included on single blog posts. It lists: 
+ *      1) The author's name with a link to the author's archive, and 
+ *      2) The categories of the article, each linking an archive by category.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <div class="text-muted meta categories">
     By 
     <span class="author">

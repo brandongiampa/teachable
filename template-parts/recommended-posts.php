@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the template for the recommended posts section at the end of blogs.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <?php 
 
 $cats = wp_get_post_categories( get_the_id() );

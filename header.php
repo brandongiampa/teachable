@@ -1,3 +1,15 @@
+<?php
+/**
+ * Header file for the Teachable WordPress default theme.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,3 +1,13 @@
+<?php
+/**
+ * This is the template for how blog meta-info cards are displayed on archive pages.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
 <div class="col-12 col-lg-6 p-lg-3 blog-card-wrap">
     <a href="<?php the_permalink(); ?>">
         <div class="card blog-card">

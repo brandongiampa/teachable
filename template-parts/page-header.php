@@ -1,4 +1,14 @@
 <?php
+/**
+ * This is the template for the header of each different type of page.
+ *
+ * @package WordPress
+ * @subpackage Teachable
+ * @since Teachable 1.0
+ */
+?>
+
+<?php
 
 global $wp_query;
 $title = "Teachable";
