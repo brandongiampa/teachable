@@ -1,8 +1,8 @@
 <?php
 /**
- * The single post template file
+ * The single page template file
  *
- * This is the template used for individual blog posts, unless otherwise specified.
+ * This is the template used for individual pages, unless otherwise specified.
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
